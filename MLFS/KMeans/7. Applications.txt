@@ -1,0 +1,25 @@
+Applications
+
+Business Uses
+The K-means clustering algorithm is used to find groups which have not been explicitly labeled in the data. This can be used to confirm business assumptions about what types of groups exist or to identify unknown groups in complex data sets. Once the algorithm has been run and the groups are defined, any new data can be easily assigned to the correct group.
+
+This is a versatile algorithm that can be used for any type of grouping. Some examples of use cases are:
+
+Behavioral segmentation:
+Segment by purchase history
+Segment by activities on application, website, or platform
+Define personas based on interests
+Create profiles based on activity monitoring
+Inventory categorization:
+Group inventory by sales activity
+Group inventory by manufacturing metrics
+Sorting sensor measurements:
+Detect activity types in motion sensors
+Group images
+Separate audio
+Identify groups in health monitoring
+Detecting bots or anomalies:
+Separate valid activity groups from bots
+Group valid activity to clean up outlier detection
+In addition, monitoring if a tracked data point switches between groups over time can be used to detect meaningful changes in the data.
+

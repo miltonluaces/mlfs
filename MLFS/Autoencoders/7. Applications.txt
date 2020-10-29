@@ -1,0 +1,19 @@
+﻿Applications
+
+14.9 Applications of AutoencodersAutoencoders have been successfully applied to dimensionality reduction and infor-mation retrieval tasks. 
+Dimensionality reduction was one of the ﬁrst applicationsof representation learning and deep learning. 
+It was one of the early motivationsfor studying autoencoders. For example, Hinton and Salakhutdinov (2006) traineda stack of RBMs and then used their 
+weights to initialize a deep autoencoderwith gradually smaller hidden layers, culminating in a bottleneck of 30 units. 
+Theresulting code yielded less reconstruction error than PCA into 30 dimensions, andthe learned representation was qualitatively easier to interpret and 
+relate to theunderlying categories, with these categories manifesting as well-separated clusters.Lower-dimensional representations can improve performance 
+on many tasks,such as classiﬁcation. Models of smaller spaces consume less memory and runtime.Many forms of dimensionality reduction place semantically
+related examples neareach other, as observed by Salakhutdinov and Hinton (2007b) and Torralba et al.(2008). 
+The hints provided by the mapping to the lower-dimensional space aidgeneralization.One task that beneﬁts even more than usual from dimensionality 
+reduction isinformation retrieval, the task of ﬁnding entries in a database that resemble aquery entry. This task derives the usual beneﬁts from 
+dimensionality reductionthat other tasks do, but also derives the additional beneﬁt that search can becomeextremely eﬃcient in certain kinds of 
+low-dimensional spaces. Speciﬁcally, ifwe train the dimensionality reduction algorithm to produce a code that is low-dimensional and binary, 
+then we can store all database entries in a hash tablethat maps binary code vectors to entries. This hash table allows us to performinformation 
+retrieval by returning all database entries that have the same binarycode as the query. We can also search over slightly less similar entries 
+veryeﬃciently, just by ﬂipping individual bits from the encoding of the query. Thisapproach to information retrieval via dimensionality reduction 
+and binarizationis calledsemantic hashing(Salakhutdinov and Hinton, 2007b, 2009b) and hasbeen applied to both textual input (Salakhutdinov and Hinton, 2007b, 2009b) and522
+
