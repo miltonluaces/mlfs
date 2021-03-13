@@ -1,3 +1,4 @@
+import numpy as np
 from GNG import GrowingNeuralGas
 from sklearn import datasets
 from sklearn.preprocessing import StandardScaler
