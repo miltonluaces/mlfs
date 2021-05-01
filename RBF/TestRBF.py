@@ -1,5 +1,5 @@
+from utilities.std_imports import *
 from scipy import *
-from matplotlib import pyplot as plt
 from RBF import RBF
 
 # Generate data (set y and random noise)

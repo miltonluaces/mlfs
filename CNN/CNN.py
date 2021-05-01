@@ -1,4 +1,4 @@
-import numpy
+from utilities.std_imports import *
 import sys
 
 def conv(img, filter):

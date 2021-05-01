@@ -1,9 +1,8 @@
 # Sequential Monte Carlo (SMC) with pymc
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+from utilities.std_imports import *
 import pymc
-import numpy as np
 import math
 
 
